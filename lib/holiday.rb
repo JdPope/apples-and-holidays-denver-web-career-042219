@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
           
           puts "  "+ (holiday.to_s).capitalize!+":" + new_array
           
-      
+      end
   end
 
 end

@@ -51,6 +51,11 @@ end
 return supplies.flatten
 end
 
+
+
+
+
+
 def all_supplies_in_holidays(holiday_hash)
 the_big_one=[]
 holiday_hash.each do |hash, season|
@@ -59,6 +64,13 @@ end
 return the_big_one
 
 end
+
+
+
+
+
+
+
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists

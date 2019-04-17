@@ -64,6 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
           puts "  "+ (holiday.to_s).capitalize!+":"
           items.each do |item|
             puts item.capitalize!
+          end
       end
   end
 

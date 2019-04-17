@@ -63,7 +63,6 @@ def all_supplies_in_holidays(holiday_hash)
       holidays.each do |holiday, items|
           new_array = []
           new_string =  (items.map{|item| item.capitalize!}).join(",")
-          new_array<< new_string
           puts "  "+ (holiday.to_s).capitalize!+":" + new_string
           
       

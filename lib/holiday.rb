@@ -56,7 +56,7 @@ the_big_one=[]
 holiday_hash.each do |hash, season|
   the_big_one<< holiday_hash[season].to_s
 end
-
+return the_big_one
 
 end
 

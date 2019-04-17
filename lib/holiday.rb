@@ -64,8 +64,8 @@ def all_supplies_in_holidays(holiday_hash)
             new_holiday_two = []
             new_array = items.map{|item| item}
             new_holiday = (holiday.to_s).split("_")
-            new_holiday_two<< new_holiday.each do |word|
-              word.capitalize!
+            new_holiday.each do |word|
+              new_holiday_two<< word.capitalize!
             end
           puts "  "+ (holiday.to_s).capitalize!+": " + new_array.join(", ")
           

@@ -87,6 +87,7 @@ holiday_names=[]
        if supplies.include?"BBQ"
          holiday_names<< name
 end
+end
 return holiday_names
 
 end
